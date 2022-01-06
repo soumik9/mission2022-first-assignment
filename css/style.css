@@ -15,11 +15,15 @@ body{
     color: #FFAD5A;
 }
 
-.header h1{
-    font-size: 76px;
-    padding-left: 15px;
-    border-left: 5px solid #FF5959;
+.header-title{
     margin-bottom: 40px;
+    border-left: 5px solid #FF5959;
+}
+
+.header h1{
+    font-size: 60px;
+    padding-left: 15px;
+    padding-top: 0;
     font-family: 'Yeseva One', cursive;
 }
 .header p{
@@ -41,4 +45,35 @@ body{
     width: 80%;
     height: 80%;
     margin-left: 50px;
+}
+
+.missions{
+    margin-bottom: 50px;
+    padding-left: 2%;
+}
+.missions-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.missions-title h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.m-first-content-bgcolor{
+    background-color: rgba(131, 235, 217, 0.1);
+}
+.m-second-content-bgcolor{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.m-third-content-bgcolor{
+    background-color: rgba(255,244,214, 0.4);
+}
+.m-content-style{
+    width: 33%;
+    padding: 30px;
+    border-radius: 5%;
+    margin-right: 30px;
+}
+.m-content-img img{
+    width: 30%;
 }
