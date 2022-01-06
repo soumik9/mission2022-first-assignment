@@ -1,3 +1,4 @@
+/* defualt */
 body{
     margin: 0; 
     font-family: 'Poppins', sans-serif;
@@ -6,17 +7,29 @@ body{
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
-    
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
-    margin-bottom: 0;
 }
 .sun-flower-color{
     color: #FFAD5A;
 }
+.link-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 14px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700; 
+}
+p{
+    font-size: 18px;
+}
+/*end defualt */
 
+
+/*header*/
 .header{
     margin-bottom: 100px;
 }
@@ -27,13 +40,12 @@ body{
 }
 .side-border{
     width: 4px;
-    height: 125px;
+    height: 113px;
     background-color: #ff5959;
     border-radius: 5px;
     margin-right: 13px;
-    margin-top: 74px;
+    margin-top: 62px;
 }
-
 .header h1{
     font-size: 60px;
     padding-left: 15px;
@@ -42,16 +54,7 @@ body{
     margin-bottom: 20px;
 }
 .header p{
-   font-size: 18px;
    margin-bottom: 45px;
-}
-.link-btn{
-    text-decoration: none;
-    background-color: #FF5959;
-    padding: 14px 40px;
-    color: white;
-    border-radius: 5px;
-    font-weight: 700; 
 }
 .header-scroll-info{
     margin-top: 45px;
@@ -60,7 +63,9 @@ body{
     width: 70%;
     margin-left: 50px;
 }
+/*end header*/
 
+/*second section*/
 .missions{
     margin-bottom: 50px;
     padding-left: 2%;
@@ -72,9 +77,6 @@ body{
 .missions-title h1{
     font-size: 48px;
     font-weight: 700;
-}
-.m-content-des p{
-    font-size: 18px;
 }
 .m-content-style{
     width: 33%;
@@ -94,7 +96,9 @@ body{
 .m-third-content-bgcolor{
     background-color: rgba(255,244,214, 0.4);
 }
+/*end second section*/
 
+/*third section*/
 .develop{
     padding-left: 5%;
     margin-top: 120px;
@@ -116,9 +120,10 @@ body{
 }
 .develop-right-section p{
     margin-bottom: 40px;
-    font-size: 18px;
 }
+/*end third section*/
 
+/*fourth section*/
 .global{
     padding-left: 5%;
 }
@@ -139,9 +144,10 @@ body{
 }
 .global-left-section p{
     margin-bottom: 40px;
-    font-size: 18px;
 }
+/*end fourth section*/
 
+/*fifth section*/
 .build{
     margin-bottom: 150px;
     padding-left: 2%;
@@ -154,21 +160,12 @@ body{
     font-size: 56px;
     font-weight: 700;
 }
-.build-left-section{
-    width: 50%;
-}
 .build-left-section h1{
     font-size: 36px;
 }
-.build-left-section p{
-    font-size: 18px;
-}
-.build-right-section{
-    width: 50%;
-}
 .build-right-section-content{
-    margin-left: 50px;
     text-align: center;
+    margin-left: 50px;
     margin-top: 10px;
 }
 .build-right-section-content input{
@@ -180,7 +177,9 @@ body{
 .build-right-section a{
     margin-left: 120px;
 }
+/*end fifth section*/
 
+/*footer section*/
 footer{
     text-align: center;
     background-color: black;
@@ -197,3 +196,4 @@ footer h1{
 footer p{
     font-family: 'Manrope', sans-serif;
  }
+ /*end second section*/
